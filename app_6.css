@@ -1,0 +1,389 @@
+body, html,*{
+    padding:0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#main-div{
+    background-image: url('pictures/mahmoud-sulaiman-z1DBcjOyQ14-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+
+/* #pages-list-item:hover{
+    color: yellow !important;
+    text-decoration: underline;
+} */
+
+a{
+    text-decoration: none;
+}
+
+#pages-list-div{
+    width: 100%;
+}
+
+#pages-list{
+    padding: 30px;
+    padding-left: 700px;
+    display: flex;
+}
+
+#pages-list-item{
+margin-right: 80px;
+}
+
+#first-page{
+    background-color: rgba(0, 0, 0, 0.397) !important;
+    height: 100vh;
+}
+
+#first-page-body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+#name{
+color: white;
+}
+
+#name span{
+    color: yellow;
+}
+
+#text{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+#first-page-button{
+    padding: 11px 30px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+
+#button-div:hover #first-page-button{
+    color: white;
+    background-color: rgba(255, 255, 0, 0.438)
+}
+
+#logo{
+    position: absolute;
+}
+
+#second-page{
+    height: 85vh;
+    /* background-color: rgb(255, 208, 0); */
+}
+
+#second-page-content{
+    flex-direction: column;
+    justify-content: center;
+    /* display: flex; */
+    float: right;
+    width:40vw;
+    height: 40vh;
+    margin-right: 200px;
+    border-radius: 2rem;
+    color: red;
+}
+
+#second-page img{
+    border-radius: 2rem;
+    width: 350px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 60px;
+    /* border-radius: 2rem; */
+}
+
+#about-us{
+    color: rgb(53, 48, 48);
+    float: left;
+    padding: 40px 0px 0px 0px;
+    width:calc(100%-50px);
+    width: 100%;
+    font-size: 35px;
+    /* color: white; */
+}
+
+#about-us-little-title{
+    color: rgb(85, 81, 81);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#about-us-text{
+    color: rgb(53, 48, 48);
+    /* color: white; */
+    text-align: center;
+}
+
+#button-div{
+text-align: center;
+}
+
+#know-more-button{
+    margin-top: 20px;
+    padding: 11px;
+    background-color: rgba(53, 48, 48, 0.808);
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+#know-more-button:hover{
+    color: rgba(53, 48, 48, 0.808);
+    background-color: rgba(53, 48, 48, 0);
+    outline: none;
+    border: 1px solid rgba(53, 48, 48, 0.808);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#offers-page{
+    display: flex;
+    background-color: black;
+}
+
+#offers-page img{
+    width: 100%;
+}
+
+#offers-page figure{
+    width: 25%;
+    margin: 50px;
+}
+
+#offers{
+    background-color: black;
+    padding: 50px;
+}
+
+#req-page{
+    /* padding-inline: 40px; */
+    /* background-color: rgba(53, 48, 48, 0.808); */
+    height: 100vh;
+    padding-bottom: 300px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+#menu{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 60px;
+    color: rgba(53, 48, 48, 0.808);
+}
+
+#menu-para{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 15px;
+    color: rgba(53, 48, 48, 0.808);
+}
+
+#right{
+    /* background-color: red; */
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+
+#left{
+    /* background-color: blue; */
+    width: 40%;
+    float: left;
+    margin-left:110px ;
+}
+
+/* .order{
+
+} */
+
+
+#price{
+    color: yellow !important;
+    float: right;
+}
+
+ul span{
+    padding: 0;
+    width: 50px;
+    margin-right: -230px;
+}
+
+#right span{
+float: right;    
+    position: absolute;
+    width: 40px;
+    right: 100px;
+}
+
+h3{
+    padding-top: 30px;
+    color: rgba(53, 48, 48, 0.808);
+}
+
+#about-meal, .meal-name, #price{
+    width: 75%;
+    float: right;
+    color: rgba(53, 48, 48, 0.808);
+}
+
+#price-r{
+    margin-right: 20px;
+    width: 50px;
+    position: absolute;
+    color: yellow;
+}
+
+/* .meal-name{
+    color: rgb(53, 48, 48, 0.808)
+    blackred
+} */
+
+.order img{
+    /* margin: 0 auto; */
+    width: 20%;
+    float: left;
+}
+
+#gallery{
+    height: 100vh;
+    background-color: rgb(10, 10, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meals{
+    height: 70vh;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#meals h1{
+    margin-top: 70px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: whitesmoke;
+    /* margin-bottom: 50px; */
+    padding-bottom: 60px;
+}
+
+#meals-page-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-foot{
+    width: 45%;
+    float: right;
+    margin-left: 50px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.foot-tit{
+    color: rgba(99, 97, 97, 0.808);
+}
+
+#left-foot{
+    width: 45%;
+    float: left;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    padding-left: 180px;
+    margin-top: 160px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#left-foot h2{
+    color: rgba(44, 43, 43, 0.808);
+}
+
+.p{
+    font-size: 14px;
+    padding: 3px 0px 15px 0px;
+    color: rgba(99, 97, 97, 0.808);
+}
+
+.p-i{
+    font-size: 14px;
+    padding: 3px 0px 10px 0px;
+}
+
+#gallery img{
+    width: 20%;
+    padding: 20px;
+}
+
+#meals img{
+    width: 20%;
+    padding:20px;
+}
+
+#gallery-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#gallery-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#right-foot input{
+    color: rgba(82, 81, 81, 0.808);
+    padding-left: 15px;
+    background-color: rgb(250, 250, 210);
+    width: 250px;
+    padding: 5px 1px 5px 15px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
